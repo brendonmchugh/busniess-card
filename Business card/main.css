@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    div{
+      border-radius:5px;  
+      background:blue;
+    }
+
+body {
+    background-color: rgb(114, 177, 236);
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 390px;
+  height: 220px;
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(168, 242, 255);
+}
+
+.front-side
+.back-side{
+  background-image: url("Assets/background\ business\ card-01\ copy.svg")
+}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-left:50px;
+  padding: 10px
+
+}
+
+.secondary{
+  display: grid;
+  position: center;
+  margin-left:135px;
+
+}
+
+.icon-container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 
+  "a, ,b, ,c";
+  }
+
+.logo{
+  height:90px;
+  width: 150px;
+  margin-left: 120px;
+  margin-top: 25px;
+}
+
+.back-side{
+  background-image: url("Assets/background\ for\ businessncard_v2.svg");
+
+  grid-area: a;
+} 
+.front-side{
+  background-image: url("Assets/front\ of\ card\ background.svg");
+}
+
+
+h3{
+  margin-bottom: 0px;
+}
+h5{
+  margin-top: 0px;
+  padding-top: 0px;
+} 
