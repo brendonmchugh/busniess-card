@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     }
-    div{
-      border-radius:5px;  
-      background:blue;
-    }
-
 body {
     background-color: rgb(114, 177, 236);
 }
